@@ -1,0 +1,102 @@
+/* Cabeçalho */
+
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+
+    .nav-masthead {
+        float: right;
+    }
+}
+
+.slogan-title {
+    text-align: initial;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins";
+
+}
+
+.slogan-subtitle {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #9388fa;
+    font-family: "Poppins";
+    display: inline-block;
+
+}
+
+#header {
+    background-color: #564FC1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#main {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 500px;
+}
+
+#mic-column {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+#mic-column img {
+    max-width: 150px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+#text-column {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;    
+}
+
+#language-column {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#main-row {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
