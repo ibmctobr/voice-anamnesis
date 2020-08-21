@@ -3,7 +3,7 @@ A VueJS application to make anamnesis (an interview conducted by the health prof
 
 ## Prerequisites
 - Node.js
-- Back-end running locally (follow [these instructions](https://github.com/ibmctobr/Entities-NLU-API) before continuing)
+- Back-end running locally (follow [these instructions](https://github.com/ibmctobr/voice-anamnesis-api) before continuing)
 
 ## Project setup
 ```
